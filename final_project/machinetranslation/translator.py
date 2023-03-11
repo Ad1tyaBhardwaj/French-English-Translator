@@ -8,7 +8,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from dotenv import load_dotenv
 
 load_dotenv()
-
+#Test comment
 apikey = os.environ['apikey']
 url = os.environ['url']
 print(apikey)
